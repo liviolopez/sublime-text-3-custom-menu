@@ -1,15 +1,17 @@
 # sublime-text-3-custom-menu
 Custom options to main menu -  Subliem text 3
 
-# Path to download the user's custom files (Linux)
-~/.config/sublime-text-3/Packages/User/Main.sublime-menu
-
 # Required packages
 - JSON Key-Value https://packagecontrol.io/packages/JSON%20Key-Value 
 - Kotlin https://packagecontrol.io/packages/Kotlin 
 - url-utils https://packagecontrol.io/packages/url-utils 
 - RegReplace https://packagecontrol.io/packages/RegReplace 
 - Multicommands https://packagecontrol.io/packages/Multicommand 
+
+# Install
+1. Install required packages 
+2. Download [Main.sublime-menu](https://github.com/liviolopez/sublime-text-3-custom-menu/blob/master/Main.sublime-menu) and [reg_replace_rules.sublime-settings](https://github.com/liviolopez/sublime-text-3-custom-menu/blob/master/reg_replace_rules.sublime-settings) to SublimeText user preferences directory \
+Linux Path: ~/.config/sublime-text-3/Packages/User/Main.sublime-menu
 
 # Check command syntax
 1. Open terminal

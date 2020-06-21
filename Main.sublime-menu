@@ -1,0 +1,151 @@
+[
+    {
+        "caption": "👀 SYNTAX",
+        "mnemonic": "X",
+        "id": "syntax",
+        "children":
+        [
+            { 
+            	"command": "set_file_type", 
+            	"caption": "𝕂𝕆𝕋𝕃𝕀ℕ", 
+                "args": { "syntax": "Packages/Kotlin/Kotlin.tmLanguage" }
+        	},
+            { 
+                "command": "set_file_type", 
+                "caption": "ᒍᗩᐯᗩ", 
+                "args": { "syntax": "Packages/Java/Java.sublime-syntax" }
+            },
+            {
+                "caption": "𝙅𝙎𝙊𝙉",
+                "children":
+                [
+                    { 
+                        "command": "set_file_type", 
+                        "caption": "Color", 
+                        "args": { "syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage" }
+                    },
+                    { 
+                        "command": "multicommand", 
+                        "caption": "Pretty",
+                        "args": {
+                            "commands": [
+                              { "command": "pretty_json" },
+                              {
+                                "command": "set_file_type", 
+                                "args": { "syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage" }
+                              }
+                            ]
+                          }
+                    },
+                    { 
+                        "command": "multicommand", 
+                        "caption": "Unpretty",
+                        "args": {
+                            "commands": [
+                              { "command": "un_pretty_json" },
+                              {
+                                "command": "set_file_type", 
+                                "args": { "syntax": "Packages/JSON Key-Value/JSON Key-Value.tmLanguage" }
+                              }
+                            ]
+                          }
+                    }
+                ]
+            },
+            { 
+                "command": "set_file_type", 
+                "caption": "𝐗𝐌𝐋", 
+                "args": { "syntax": "Packages/XML/XML.sublime-syntax" }
+            },
+            { 
+                "command": "set_file_type", 
+                "caption": "ＹＡＭＬ", 
+                "args": { "syntax": "Packages/XML/XML.sublime-syntax" }
+            },
+            { 
+                "command": "set_file_type", 
+                "caption": "🆂🅷🅴🅻🅻", 
+                "args": { "syntax": "Packages/ShellScript/Bash.sublime-syntax" }
+            },
+            { 
+                "command": "set_file_type", 
+                "caption": "𝕵𝖆𝖛𝖆𝕾𝖈𝖗𝖎𝖕𝖙", 
+                "args": { "syntax": "Packages/JavaScript/JavaScript.sublime-syntax" }
+            },
+            { 
+                "command": "set_file_type", 
+                "caption": "Groovy", 
+                "args": { "syntax": "Packages/Groovy/Groovy.sublime-syntax" }
+            }
+        ]
+    }, 
+    {
+        "caption": "🌎 URL",
+        "id": "url",
+        "children":
+        [
+            { 
+                "command": "urlencode", 
+                "caption": "Encode"
+            },
+            { 
+                "command": "urldecode", 
+                "caption": "Decode"
+            },
+            { 
+                "command": "urlparse", 
+                "caption": "Unparse"
+            },
+            { 
+                "command": "urlunparse", 
+                "caption": "Parse"
+            },
+            { 
+                "command": "urlresponse", 
+                "caption": "Response"
+            }
+        ]
+    },
+    {
+        "caption": "Line to",
+        "children":
+        [
+            {
+                "caption": ",",
+                "command": "reg_replace",
+                "args": {
+                  "replacements": [
+                    "add_line_to_comma"
+                  ]
+                }
+            },
+            {
+                "caption": ":",
+                "command": "reg_replace",
+                "args": {
+                  "replacements": [
+                    "add_line_to_two_dots"
+                  ]
+                }
+            },
+            {
+                "caption": "=",
+                "command": "reg_replace",
+                "args": {
+                  "replacements": [
+                    "add_line_to_equal"
+                  ]
+                }
+            },
+            {
+                "caption": "&",
+                "command": "reg_replace",
+                "args": {
+                  "replacements": [
+                    "add_line_to_ampersand"
+                  ]
+                }
+            }
+        ]
+    }
+]

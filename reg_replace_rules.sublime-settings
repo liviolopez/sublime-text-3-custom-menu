@@ -1,0 +1,28 @@
+{
+  "replacements": {
+    "add_line_to_comma": {
+      "find": ",",
+      "replace": ",\n",
+      "greedy": true,
+      "case": false
+    },
+    "add_line_to_equal": {
+      "find": "=",
+      "replace": "=\n",
+      "greedy": true,
+      "case": false
+    },
+    "add_line_to_two_dots": {
+      "find": ":",
+      "replace": ":\n",
+      "greedy": true,
+      "case": false
+    },
+    "add_line_to_ampersand": {
+      "find": "&",
+      "replace": "&\n",
+      "greedy": true,
+      "case": false
+    }
+  }
+}

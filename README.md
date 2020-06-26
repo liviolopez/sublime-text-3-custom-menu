@@ -11,7 +11,8 @@ Custom options to main menu -  Subliem text 3
 # Install
 1. Install required packages 
 2. Download [Main.sublime-menu](https://github.com/liviolopez/sublime-text-3-custom-menu/blob/master/Main.sublime-menu) and [reg_replace_rules.sublime-settings](https://github.com/liviolopez/sublime-text-3-custom-menu/blob/master/reg_replace_rules.sublime-settings) to SublimeText user preferences directory \
-Linux Path: ~/.config/sublime-text-3/Packages/User/Main.sublime-menu
+Linux Path: ~/.config/sublime-text-3/Packages/User/
+OSX Path: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # Check command syntax
 1. Open terminal

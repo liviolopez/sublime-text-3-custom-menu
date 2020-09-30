@@ -7,6 +7,7 @@ Custom options to main menu -  Subliem text 3
 - url-utils https://packagecontrol.io/packages/url-utils 
 - RegReplace https://packagecontrol.io/packages/RegReplace 
 - Multicommands https://packagecontrol.io/packages/Multicommand 
+- Pretty JSON https://packagecontrol.io/packages/Pretty%20JSON
 
 # Install
 1. Install required packages 

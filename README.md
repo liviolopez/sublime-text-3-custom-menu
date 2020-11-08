@@ -1,7 +1,7 @@
 # sublime-text-3-custom-menu
 Custom options to main menu -  Subliem text 3
 
-# Required packages (⌘ + ⇧ + P)
+# Required packages (⌘ + ⇧ + P) "Install Package"
 - JSON Key-Value https://packagecontrol.io/packages/JSON%20Key-Value 
 - Kotlin https://packagecontrol.io/packages/Kotlin 
 - url-utils https://packagecontrol.io/packages/url-utils 
